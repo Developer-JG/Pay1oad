@@ -2,7 +2,7 @@
 
 int hw_l2(){
     int mon = 0, sold_mon = 0;
-    int mon_type[] = {50000, 10000,5000,1000,500,100};
+    int mon_type[] = {50000, 10000, 5000, 1000, 500, 100};
     int mon_type_len = sizeof(mon_type) / sizeof(mon_type[0]);
     printf("자판기에 입력된 돈 : ");
     scanf("%d", &mon);
