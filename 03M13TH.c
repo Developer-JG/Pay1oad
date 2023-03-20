@@ -101,7 +101,7 @@ int hw_l3() {
     char ch;
     printf("알파벳 하나를 입력하세요 : ");
     scanf("%c", &ch);
-    ch += 1;
+    ch -= 255;
     printf("결과 : ");
     printf("%c", ch);
 }
