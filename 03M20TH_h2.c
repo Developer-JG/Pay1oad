@@ -55,7 +55,7 @@ int main() {
     plag = 0, count = 0;
     while (plag != 1) {
         count = count + 1;
-        if ((count * dis) % ((first_prime - 1) * (second_prime - 1))  == 1) {
+        if ((count * dis) % ((first_prime - 1) * (second_prime - 1)) == 1) {
             plag = plag + 1;
         }
     }
