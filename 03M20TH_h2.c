@@ -1,5 +1,3 @@
-// RSA key cryptosystem
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -57,7 +55,7 @@ int main() {
     plag = 0, count = 0;
     while (plag != 1) {
         count = count + 1;
-        if ((first_prime - 1) * (second_prime - 1) % (count * dis) == 1) {
+        if ((count * dis) % ((first_prime - 1) * (second_prime - 1))  == 1) {
             plag = plag + 1;
         }
     }
